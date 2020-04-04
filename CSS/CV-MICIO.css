@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+header{
+	background-color: red;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 30px;
+	}
+
+h1{
+	font-family: 'Cinzel Decorative', cursive;
+}
+h2{
+	font-family: 'Fredericka the Great', cursive;
+	
+}
+
+header h1{
+	color: white;
+	font-size: 40px;
+	}
+header img{
+	border-radius: 200px;
+    width: 300px;
+    border: 10px solid grey;
+}
