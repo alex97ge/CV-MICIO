@@ -1,42 +1,65 @@
 
-header{
-	background-image: url(Img/Sfondo_header.jpg);
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 70px;
-	}	
-header h1{
-	color: white;
-	font-size: 70px;
-	}
-header img{
-	border-radius: 500px;
-    width: 450px;
-    border: 10px solid grey;
-	}
-
 
 body{
-	margin: 0;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro';
 	font-size: 30px;
+	color: white;
 	line-height: 50px;
-
+	margin: 0;
 	}
 
-h1{font-family: 'Fredericka the Great', cursive;}
-h2{	
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 50px;
-	margin:  -15px;
-	}
+	header{
+
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 70px;
+		margin: 0;
+		}	
+
+		header h1{
+			color: white;
+			font-size: 70px;
+			}
+		header img{
+			border-radius: 500px;
+		    width: 450px;
+		    border: 20px;
+			}
+
+
+	h1{font-family: 'Fredericka the Great', cursive;}
+
+	h2{	
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 50px;
+		max-width: 800px;
+		min-width: 300px;
+		margin-left: 50px;
+		}
 
 
 main{
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 0 20px;
+	background: url(Img/Sfondo_body.jpg);
+	width: auto;
+  	height: auto;
+  	margin: 0 auto;
+	padding: 20px;
+  	background-position: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 a:visited{color: green;}
 a:hover{background-color: red;}
+
+.container_1{
+	margin: 0 125px 125px;
+}
+.headerimg_responsive{
+	background-position: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin: 0;
+}
