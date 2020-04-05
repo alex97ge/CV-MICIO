@@ -2,26 +2,31 @@ body{
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 30px;
-}
+	}
+
 header{
 	background-color: red;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 70px;
 	}
+	
 header h1{
 	color: white;
 	font-size: 70px;
 	}
+
 header img{
 	border-radius: 500px;
     width: 450px;
     border: 10px solid grey;
-}
+	}
+
 h1{
 	font-family: 'Fredericka the Great', cursive;	
-}
+	}
+
 h2{	
 	font-family: 'Fredericka the Great', cursive;
 	font-size: 50px;
-}
+	}
