@@ -1,5 +1,3 @@
-
-
 body{
 	font-family: 'Source Sans Pro';
 	font-size: 30px;
@@ -39,27 +37,42 @@ body{
 
 
 main{
-	background: url(Img/Sfondo_body.jpg);
 	width: auto;
   	height: auto;
   	margin: 0 auto;
 	padding: 20px;
-  	background-position: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
 }
 
-a:visited{color: green;}
+a:link{color:green;}
+a:visited{color: purple;}
 a:hover{background-color: red;}
 
-.container_1{
-	margin: 0 125px 125px;
+
+
+/*							CONTAINERS						*/
+
+.container_H01{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.headerimg_responsive{
+.container_M01{
+	background-position: center;
+	background-size: contain;
 	background-position: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	margin: 0;
+	margin:0;
+}
+.container_02{
+	margin-left: 60px;
+	margin-right: 50px;
+}
+
+.container_F01{
+	width: auto;
+  	height: auto;
+  	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-left: 200px;
+	padding-right: 150px;
 }
