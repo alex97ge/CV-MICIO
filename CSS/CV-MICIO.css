@@ -1,3 +1,4 @@
+
 body{
 	font-family: 'Source Sans Pro';
 	font-size: 30px;
@@ -6,23 +7,23 @@ body{
 	margin: 0;
 	}
 
-	header{
+header{
 
-		text-align: center;
-		padding-top: 30px;
-		padding-bottom: 70px;
-		margin: 0;
-		}	
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 70px;
+	margin: 0;
+	}	
 
-		header h1{
-			color: white;
-			font-size: 70px;
-			}
-		header img{
-			border-radius: 500px;
-		    width: 450px;
-		    border: 20px;
-			}
+	header h1{
+		color: white;
+		font-size: 70px;
+		}
+	header img{
+		border-radius: 500px;
+	    width: 450px;
+	  	border: 20px;
+		}
 
 
 	h1{font-family: 'Fredericka the Great', cursive;}
@@ -50,18 +51,25 @@ a:hover{background-color: red;}
 
 
 /*							CONTAINERS						*/
+.container_H01par{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
-.container_H01{
+	min-height: 500px; 
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 .container_M01{
 	background-position: center;
 	background-size: contain;
 	background-position: fixed;
 	margin:0;
 }
+
 .container_02{
 	margin-left: 60px;
 	margin-right: 50px;
@@ -73,6 +81,6 @@ a:hover{background-color: red;}
   	margin: 0 auto;
 	padding-top: 70px;
 	padding-bottom: 70px;
-	padding-left: 200px;
+	padding-left: 160px;
 	padding-right: 150px;
 }
