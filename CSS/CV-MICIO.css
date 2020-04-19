@@ -22,7 +22,7 @@ header{
 	header img{
 		border-radius: 500px;
 	    width: 450px;
-	  	border: 20px;
+	  	border: 15px solid white;
 		}
 
 
@@ -33,7 +33,7 @@ header{
 		font-size: 50px;
 		max-width: 800px;
 		min-width: 300px;
-		margin-left: 50px;
+		margin-left: 15px;
 		}
 
 
@@ -42,6 +42,7 @@ main{
   	height: auto;
   	margin: 0 auto;
 	padding: 20px;
+	text-align: justify-all;
 }
 
 a:link{color:green;}
@@ -73,6 +74,8 @@ a:hover{background-color: red;}
 .container_02{
 	margin-left: 60px;
 	margin-right: 50px;
+	background-image: url('Img/Sfondo_body.jpg');
+	height: 100px;
 }
 
 .container_F01{
@@ -83,4 +86,12 @@ a:hover{background-color: red;}
 	padding-bottom: 70px;
 	padding-left: 160px;
 	padding-right: 150px;
+}
+
+.spazio_1{
+	height: 100vh;
+    background: url('Img/foto_1.jpg') no-repeat center;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-size: 50% 80%;
 }
